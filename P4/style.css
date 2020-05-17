@@ -90,11 +90,10 @@ a:hover {
     right: 0;
 }
 
-
-/*.texture-paper::before {
+.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}*/
+}
 
 .b-parallax {
     background-attachment: fixed;
@@ -678,12 +677,12 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto;
+    margin: auto auto auto auto;
 }
 
 .h1 {
@@ -696,13 +695,13 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .social {
     max-width: 400px;
-    margin: auto;
+    margin: auto auto auto auto;
 }
 
 h2 {
@@ -776,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: rgb(255, 255, 255)!important;
 }
 
 .btn-atomic-tangerine {
@@ -826,18 +825,10 @@ h4 {
     background-image: url("img/image-de-presentation.png");
 }
 
-.barre-menu {
-    text-transform: uppercase;
-}
-
-.barre-menu:hover {
-    font-weight: bold;
-    transition: all 0s;
-}
-
 .citation p:nth-child(1) {
     font-size: 2rem;
     font-style: italic;
+    margin-bottom: 0;
 }
 
 .citation p:nth-child(2) {
@@ -847,6 +838,10 @@ h4 {
 .contact {
     font-size: 3rem;
     font-weight: bold;
+}
+
+.black {
+    color: #000 !important;
 }
 
 @media (max-width: 1024px) {
@@ -1060,7 +1055,7 @@ h4 {
     .citation p:nth-child(2) {
         font-size: 1rem;
     }
-    .realisations {
+    .realisations h2 {
         font-size: 1.8rem;
     }
     .contact {
